@@ -15,6 +15,8 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: "PressStart2P", "Silver", "JackeyFont";
 }
 
 .docusaurus-highlight-code-line {
@@ -26,4 +28,29 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Font Related CSS */
+
+* {
+    margin: 0;
+    font-family: "PressStart2P", "Silver", "JackeyFont";
+    font-size: large;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "PressStart2P";
+    src: local("PressStart2P"), url(../font/PressStart2P-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "Silver";
+    src: local("Silver"), url(../font/Silver.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "JackeyFont";
+    src: local("JackeyFont"), url(../font/JackeyFont.ttf) format("ttf");
 }

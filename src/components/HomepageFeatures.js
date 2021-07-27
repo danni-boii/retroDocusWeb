@@ -2,6 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
+import NesComponent from './NesComponent.js';
+
 const FeatureList = [
   {
     title: 'Easy to Use',
@@ -51,14 +53,15 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
+      <section className={styles.features}>
+          <div className="container">
+              <div className="row">
+                  {FeatureList.map((props, idx) => (
+                      <Feature key={idx} {...props} />
+                  ))}
+                  <NesComponent />
+              </div>
+          </div>
+      </section>
   );
 }
