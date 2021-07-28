@@ -11,7 +11,7 @@ module.exports = {
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
-    organizationName: "facebook", // Usually your GitHub org/user name.
+    organizationName: "Danni Boii", // Usually your GitHub org/user name.
     projectName: "Retro Docusaurus Website", // Usually your repo name.
     themeConfig: {
         navbar: {
@@ -78,7 +78,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Danny Wong.`,
         },
         prism: {
             theme: lightCodeTheme,
@@ -92,12 +92,12 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
-                    editUrl: "https://github.com/facebook/docusaurus/edit/master/website/",
+                    editUrl: "https://github.com/danni-boii/retroDocusWeb/tree/main",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
-                    editUrl: "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+                    editUrl: "https://github.com/danni-boii/retroDocusWeb/tree/main",
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.scss"),

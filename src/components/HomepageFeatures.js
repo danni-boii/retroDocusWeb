@@ -1,8 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import styles from './HomepageFeatures.module.scss';
 
-import NesComponent from './NesComponent.js';
+import NesComponent from './NesComponent';
 
 const FeatureList = [
   {
